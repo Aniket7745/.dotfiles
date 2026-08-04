@@ -1,0 +1,3030 @@
+[08/04/26, 21:47:01:261] info: 
+╔══════════════════════════════════════════════════════╗
+║      Slack 4.51.180, linux 7.1.5-arch1-2 on x64      ║
+╚══════════════════════════════════════════════════════╝ 
+[08/04/26, 21:47:01:262] info: Configured logger via 
+{
+  "loggerInstanceCount": 1
+}
+[08/04/26, 21:47:01:269] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "Asia/Calcutta",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.51.180",
+  "PACKAGE_MANIFEST.commit": "13ab62b",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[08/04/26, 21:47:01:328] info: persistUuid:: Generated uuid 
+{
+  "uuid": "07771e5e-4814-4190-92a5-19d9c1078642"
+}
+[08/04/26, 21:47:01:328] info: persistUuid:: Uuid persisted successfully 
+[08/04/26, 21:47:01:328] info: getSentryDSN: Setting sentry URL to slack.com 
+[08/04/26, 21:47:01:338] info: Could not load previous electron version 
+[08/04/26, 21:47:04:881] info: Breadcrumb: electron: app.will-finish-launching 
+[08/04/26, 21:47:04:883] info: Breadcrumb: electron: app.ready 
+[08/04/26, 21:47:04:887] info: Breadcrumb: electron: app.session-created 
+[08/04/26, 21:47:04:888] info: Breadcrumb: electron: app.session-created 
+[08/04/26, 21:47:04:890] info: Store: persist/PERSIST 
+[08/04/26, 21:47:04:897] info: Store: persist/REHYDRATE No persisted state
+[08/04/26, 21:47:04:898] warn: Telemetry queued before configured 
+{
+  "event": 1001000
+}
+[08/04/26, 21:47:04:898] warn: Telemetry trace before configured 
+{
+  "eventName": "desktop_performance_record"
+}
+[08/04/26, 21:47:04:898] info: Initial Boot Timestamp: 1785860221164
+      Boot Phase: REHYDRATE
+      Duration: 3734ms
+      From Boot to REHYDRATE: 3734ms
+      Invoked on Startup: false
+      CPU Speed: 100 
+[08/04/26, 21:47:04:898] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 0,
+  "interval": 3734
+}
+[08/04/26, 21:47:04:899] info: Store: UPDATE_SETTINGS 
+{
+  "locale": "en-US"
+}
+[08/04/26, 21:47:04:900] info: Store: INITIALIZE 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "silent": true,
+  "tsaToken": "[REDACTED]",
+  "bootFragments": []
+}
+[08/04/26, 21:47:04:900] info: Store: SET_SESSION_MODE 
+[08/04/26, 21:47:04:909] info: getLinuxDistro: osInfo 
+{
+  "os": "Arch Linux",
+  "name": "Arch Linux",
+  "release": null,
+  "codename": null
+}
+[08/04/26, 21:47:04:909] warn: Couldn't get Linux distro info from /etc/os-release, trying fallback to get Linux distro info 
+{
+  "error": {
+    "name": "Error",
+    "stack": "Error: Missing OS or release info\n    at y9 (/usr/lib/slack/resources/app.asar/dist/main.bundle.cjs:100:971)\n    at async R9 (/usr/lib/slack/resources/app.asar/dist/main.bundle.cjs:100:2499)\n    at async Object.initializeEnvironmentEpic_listener [as effect] (/usr/lib/slack/resources/app.asar/dist/main.bundle.cjs:100:1562)\n    at async U (/usr/lib/slack/resources/app.asar/dist/main.bundle.cjs:15:18686)",
+    "message": "Missing OS or release info"
+  }
+}
+[08/04/26, 21:47:04:910] info: getLinuxDistro: getos 
+{
+  "res": {
+    "os": "linux",
+    "dist": "Arch Linux"
+  }
+}
+[08/04/26, 21:47:04:910] info: initializeEnvironmentEpic: set user agent fallback 
+{
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64; Arch Linux unversioned; Hyprland) AppleWebKit/537.36 (KHTML, like Gecko) Slack/4.51.180 Chrome/150.0.7871.114 Electron/43.1.1 Safari/537.36 Sonic Slack_SSB/4.51.180"
+}
+[08/04/26, 21:47:04:911] info: Store: READY 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "silent": true,
+  "tsaToken": "[REDACTED]",
+  "bootFragments": [],
+  "appVersion": "4.51.180",
+  "arch": "x64",
+  "isGpuCompositionAvailable": true,
+  "platform": "linux",
+  "platformVersion": {
+    "major": 7,
+    "minor": 1,
+    "build": 5
+  },
+  "developerMenuOverride": false,
+  "uuid": "07771e5e-4814-4190-92a5-19d9c1078642",
+  "applicationProcessSessionId": "MDc3NzFlNWUtNDgxNC00MTkwLTkyYTUtMTlkOWMxMDc4NjQyXzE3ODU4NjAyMjEzMjg=",
+  "distribution": "DDL",
+  "clientEnvironment": 1000,
+  "invokedOnStartup": false,
+  "linux": {
+    "os": "Arch Linux",
+    "name": "Arch Linux ",
+    "release": "",
+    "codename": "",
+    "desktopEnvironment": "Hyprland"
+  }
+}
+[08/04/26, 21:47:04:911] info: Store: SET_ACCESSIBILITY_SUPPORT_ENABLED 
+[08/04/26, 21:47:04:911] info: initializeApplicationEpic: trying to set ntlm credential domain for session 
+{
+  "sessionId": "PROD_DEFAULT_SESSION"
+}
+[08/04/26, 21:47:04:912] info: initializeApplicationEpic: Setting spellcheck dictionary URL 
+{
+  "dictionaryUrl": "https://spellcheck.slack-edge.com/dictionaries_v2/"
+}
+[08/04/26, 21:47:04:912] info: initializeApplicationEpic: Welcome to Slack 4.51.180 x64 
+[08/04/26, 21:47:04:912] info: Store: CREATE_WINDOW 
+{
+  "type": "main"
+}
+[08/04/26, 21:47:04:913] info: persistUuid:: Generated uuid 
+{
+  "uuid": "81f46b30-5359-4722-86eb-16bd86806722"
+}
+[08/04/26, 21:47:04:913] info: persistUuid:: Uuid persisted successfully 
+[08/04/26, 21:47:04:918] info: Breadcrumb: electron: powerMonitor.newListener 
+[08/04/26, 21:47:04:918] info: Breadcrumb: electron: powerMonitor.newListener 
+[08/04/26, 21:47:04:918] info: Breadcrumb: electron: powerMonitor.newListener 
+[08/04/26, 21:47:04:920] info: logExternalConfigEpic: initial external config 
+{
+  "defaults": {}
+}
+[08/04/26, 21:47:04:920] info: getIsUpdateSupported: Updates are not supported 
+{
+  "version": "4.51.180",
+  "reasons": [
+    "using Linux"
+  ],
+  "distribution": "DDL",
+  "executable": "/usr/lib/slack"
+}
+[08/04/26, 21:47:04:927] info: Breadcrumb: electron: app.web-contents-created 
+[08/04/26, 21:47:04:928] info: Breadcrumb: electron: app.browser-window-created 
+[08/04/26, 21:47:04:933] info: Store: WINDOW_CREATED 
+{
+  "type": "main",
+  "webappType": "app",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isCurrentlyAudible": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 560,
+      "y": 240,
+      "width": 800,
+      "height": 600
+    },
+    "hasVibrancy": false,
+    "isAlwaysOnTop": false,
+    "isContentProtected": false
+  }
+}
+[08/04/26, 21:47:04:934] info: Initial Boot Timestamp: 1785860221164
+      Boot Phase: MAIN_WINDOW_CREATED
+      Duration: 36ms
+      From Boot to MAIN_WINDOW_CREATED: 3770ms
+      Invoked on Startup: false
+      CPU Speed: 100 
+[08/04/26, 21:47:04:934] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 1,
+  "interval": 36
+}
+[08/04/26, 21:47:04:935] info: Breadcrumb: electron: powerMonitor.newListener 
+[08/04/26, 21:47:04:935] info: Breadcrumb: electron: powerMonitor.newListener 
+[08/04/26, 21:47:04:940] info: Store: UPDATE_SETTINGS 
+{
+  "keyboardLayout": "us"
+}
+[08/04/26, 21:47:04:941] info: Watching for keyboard layout changes 
+[08/04/26, 21:47:04:942] info: initialSettingsPayload: trying to invalidate settings 
+{
+  "payload": {
+    "launchOnStartup": false,
+    "PrefSSBFileDownloadPath": "/home/[REDACTED]/Downloads",
+    "PrefSSBFileDownloadPathDisplayName": "Downloads",
+    "hasRunApp": true
+  }
+}
+[08/04/26, 21:47:04:943] info: Store: UPDATE_SETTINGS 
+{
+  "launchOnStartup": false,
+  "PrefSSBFileDownloadPath": "/home/[REDACTED]/Downloads",
+  "PrefSSBFileDownloadPathDisplayName": "Downloads",
+  "hasRunApp": true
+}
+[08/04/26, 21:47:04:943] info: Store: SET_UPDATE_SUPPORTED 
+[08/04/26, 21:47:04:946] info: Feature Check: requesting features from https://app.slack.com/api/ 
+[08/04/26, 21:47:04:947] info: Breadcrumb: electron: powerMonitor.newListener 
+[08/04/26, 21:47:04:947] info: Breadcrumb: electron: powerMonitor.newListener 
+[08/04/26, 21:47:04:947] info: Breadcrumb: electron: powerMonitor.newListener 
+[08/04/26, 21:47:04:951] info: Startup Display id=72 at (0, 0) [1920 x 1080] 
+[08/04/26, 21:47:04:952] info: registerLifeCycleEvents: Registering webContents:1 
+[08/04/26, 21:47:04:953] info: registerLifeCycleEvents: webContents:1 is type 'app' 
+[08/04/26, 21:47:04:953] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "unloaded",
+  "type": "app"
+}
+[08/04/26, 21:47:04:956] info: getSonicBaseURL: 
+{
+  "url": "https://app.slack.com"
+}
+[08/04/26, 21:47:04:956] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": null,
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:04:956] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": null,
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:04:956] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": null,
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:04:956] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": null,
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:04:959] info: Breadcrumb: electron: screen.display-metrics-changed 
+[08/04/26, 21:47:04:959] info: Store: DISPLAY_METRICS_CHANGED 
+[08/04/26, 21:47:05:148] info: Breadcrumb: electron: app.gpu-info-update 
+[08/04/26, 21:47:05:149] info: collectSystemInfo: Received app.gpu-info-update event 
+[08/04/26, 21:47:05:151] info: Breadcrumb: electron: screen.display-metrics-changed 
+[08/04/26, 21:47:05:151] info: Store: DISPLAY_METRICS_CHANGED 
+[08/04/26, 21:47:05:152] info: Breadcrumb: electron: screen.display-metrics-changed 
+[08/04/26, 21:47:05:152] info: Store: DISPLAY_METRICS_CHANGED 
+[08/04/26, 21:47:05:153] info: System configuration information 
+{
+  "info": {
+    "total_memory_in_gb": 15,
+    "available_memory_gb": 12,
+    "chrome_version": "150.0.7871.114",
+    "locale": "en-US",
+    "uptime_hours": 0.86,
+    "js_heap_size_used_mb": 14,
+    "js_heap_size_limit_mb": 20,
+    "gpuFeatures": {
+      "2d_canvas": "enabled",
+      "direct_rendering_display_compositor": "disabled_off_ok",
+      "gpu_compositing": "enabled",
+      "multiple_raster_threads": "enabled_on",
+      "opengl": "enabled_on",
+      "rasterization": "enabled",
+      "raw_draw": "disabled_off_ok",
+      "skia_graphite": "disabled_off",
+      "trees_in_viz": "disabled_off",
+      "video_decode": "enabled",
+      "video_encode": "disabled_software",
+      "vulkan": "disabled_off",
+      "webgl": "enabled",
+      "webgpu": "enabled",
+      "webgpu_on_vk_via_gl_interop": "enabled",
+      "webnn": "disabled_off"
+    },
+    "cpu_model": "AMD Ryzen 7 7840HS w/ Radeon 780M Graphics",
+    "cpu_logical_core": 16,
+    "cpu_clock_speed": 2232,
+    "gpuDevice": [
+      {
+        "active": true,
+        "deviceId": 5567,
+        "gpuPreference": 0,
+        "vendorId": 4098
+      },
+      {
+        "active": false,
+        "deviceId": 10401,
+        "gpuPreference": 0,
+        "vendorId": 4318
+      }
+    ],
+    "machine_model_name": "unknown",
+    "machine_model_version": "unknown",
+    "crash_db_size_kb": 1
+  }
+}
+[08/04/26, 21:47:05:153] info: Store: SET_HW_ACCEL_AVAILABILITY enabled
+[08/04/26, 21:47:05:264] info: Finished download of spellcheck dictionary 
+{
+  "code": "en-US"
+}
+[08/04/26, 21:47:05:265] info: Spellcheck dictionary initialized 
+{
+  "code": "en-US"
+}
+[08/04/26, 21:47:05:289] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "GET",
+  "status_code": 200
+}
+[08/04/26, 21:47:05:291] info: Feature Check: received experiments 
+{
+  "ok": true,
+  "experiments": [
+    {
+      "experiment": "",
+      "disable_chrome_features": [
+        "PostQuantumKyber"
+      ],
+      "type": "normal"
+    },
+    {
+      "experiment": "",
+      "enable_slack_features": [
+        "desktop_loading_screen"
+      ],
+      "type": "normal"
+    },
+    {
+      "experiment": "desktop_extended_unresponsive_timeout",
+      "enable_slack_features": [
+        "extended_unresponsive_timeout"
+      ],
+      "type": "normal"
+    }
+  ]
+}
+[08/04/26, 21:47:05:293] info: Store: UPDATE_DESKTOP_FEATURES 
+[
+  "desktop_loading_screen",
+  "extended_unresponsive_timeout"
+]
+[08/04/26, 21:47:05:293] info: Store: UPDATE_SETTINGS 
+{
+  "signInMethod": "browser"
+}
+[08/04/26, 21:47:05:294] info: Store: UPDATE_SETTINGS 
+{
+  "devToolsEnabled": false,
+  "cookiePersistenceLogging": false
+}
+[08/04/26, 21:47:05:295] info: Feature flags loaded 
+{
+  "featureFlags": [
+    "desktop_loading_screen",
+    "extended_unresponsive_timeout"
+  ],
+  "timeToLoad": 3969
+}
+[08/04/26, 21:47:05:296] info: applyDesktopFeaturesAppEpic: enabled following features 
+[
+  "desktop_loading_screen",
+  "extended_unresponsive_timeout"
+]
+[08/04/26, 21:47:05:653] info: setZoomLevelEpic: Re-applying zoom level 0 after display metrics change 
+[08/04/26, 21:47:05:869] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[08/04/26, 21:47:05:871] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[08/04/26, 21:47:05:872] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[08/04/26, 21:47:05:872] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[08/04/26, 21:47:05:874] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[08/04/26, 21:47:05:875] info: Store: UPDATE_SETTINGS 
+{
+  "userTheme": "light"
+}
+[08/04/26, 21:47:05:876] info: Store: UPDATE_SETTINGS 
+{
+  "systemThemeSyncEnabled": false
+}
+[08/04/26, 21:47:05:927] info: Breadcrumb: electron: renderer.dom-ready 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:05:927] info: registerLifeCycleEvents: webContents:1 from 'unloaded' to 'loaded' took 974 ms 
+[08/04/26, 21:47:05:927] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "loaded"
+}
+[08/04/26, 21:47:05:928] info: Initial Boot Timestamp: 1785860221164
+      Boot Phase: WEB_CONTENTS_DOM_READY
+      Duration: 994ms
+      From Boot to WEB_CONTENTS_DOM_READY: 4764ms
+      Invoked on Startup: false
+      CPU Speed: 100 
+[08/04/26, 21:47:05:928] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 2,
+  "interval": 994
+}
+[08/04/26, 21:47:05:929] info: initializeMainWindowEpic: Showing main window 
+{
+  "maximized": false,
+  "shouldHide": false,
+  "fullScreen": false
+}
+[08/04/26, 21:47:05:929] info: Breadcrumb: electron: window.show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:05:930] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:05:930] info: Store: MAIN_WINDOW_SHOWN 
+[08/04/26, 21:47:05:931] info: Store: CLEAR_NOTIFICATIONS 
+[08/04/26, 21:47:05:933] info: registerLifeCycleEvents: webContents:1 is type 'app' 
+[08/04/26, 21:47:05:933] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "type": "app",
+  "history": "[REDACTED]"
+}
+[08/04/26, 21:47:05:935] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:05:935] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:05:935] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:05:935] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:05:990] info: Breadcrumb: electron: window.maximize 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:05:991] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMaximized": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:05:991] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 956,
+      "height": 1038
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:05:992] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:05:993] info: Breadcrumb: electron: app.browser-window-focus 
+[08/04/26, 21:47:05:993] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:05:994] info: waitAuthCookieChange: waiting for auth change for session 
+{
+  "sessionId": "PROD_DEFAULT_SESSION"
+}
+[08/04/26, 21:47:05:995] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "background-sync",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:05:996] info: Breadcrumb: electron: window.ready-to-show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:06:145] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[08/04/26, 21:47:06:147] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[08/04/26, 21:47:06:196] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[08/04/26, 21:47:06:242] info: Store: SET_NETWORK_STATUS online
+[08/04/26, 21:47:06:933] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 956,
+      "height": 1038
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:06:993] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 956,
+      "height": 1038
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:06:994] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": true,
+    "bounds": {
+      "width": 1200,
+      "height": 800,
+      "x": 360,
+      "y": 140
+    }
+  }
+}
+[08/04/26, 21:47:09:326] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1916,
+      "height": 1038
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:09:327] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": true,
+    "bounds": {
+      "width": 1200,
+      "height": 800,
+      "x": 360,
+      "y": 140
+    }
+  }
+}
+[08/04/26, 21:47:09:564] info: actionForExternalWindowURL: Opening external window 
+[08/04/26, 21:47:09:568] info: openExternal: Successfully opened external URL 
+{
+  "protocol": "https:",
+  "trigger": 0
+}
+[08/04/26, 21:47:09:898] info: Store: persist/FLUSH 
+[08/04/26, 21:47:13:510] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:13:510] info: Breadcrumb: electron: app.browser-window-blur 
+[08/04/26, 21:47:13:511] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:22:172] info: Breadcrumb: electron: app.second-instance 
+[08/04/26, 21:47:22:173] info: secondInstanceEpic: Received deep link protocol activation 
+[08/04/26, 21:47:22:173] info: Store: HANDLE_DEEP_LINK 
+{
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:22:174] info: Store: MAGIC_LOGIN_IN_PROGRESS true
+[08/04/26, 21:47:22:177] info: Breadcrumb: electron: app.web-contents-created 
+[08/04/26, 21:47:22:177] info: Breadcrumb: electron: app.browser-window-created 
+[08/04/26, 21:47:22:178] info: MagicLogin: Making magic login API request to https://app.slack.com/api/ 
+[08/04/26, 21:47:22:178] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": null,
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:22:178] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": null,
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:22:178] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": null,
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:22:178] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": null,
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:22:180] info: Store: FOCUS_WINDOW 
+[08/04/26, 21:47:22:181] info: Breadcrumb: electron: window.show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:22:182] info: registerLifeCycleEvents: Registering webContents:2 
+[08/04/26, 21:47:22:182] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "state": "unloaded"
+}
+[08/04/26, 21:47:22:184] info: Breadcrumb: electron: screen.display-metrics-changed 
+[08/04/26, 21:47:22:185] info: Store: DISPLAY_METRICS_CHANGED 
+[08/04/26, 21:47:22:686] info: setZoomLevelEpic: Re-applying zoom level 0 after display metrics change 
+[08/04/26, 21:47:22:833] info: waitAuthCookieChange: Received new lc cookie 
+[08/04/26, 21:47:22:845] info: Breadcrumb: electron: renderer.dom-ready 
+{
+  "id": 2,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:22:846] info: registerLifeCycleEvents: webContents:2 from 'unloaded' to 'loaded' took 664 ms 
+[08/04/26, 21:47:22:846] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "state": "loaded"
+}
+[08/04/26, 21:47:22:851] info: registerLifeCycleEvents: webContents:2 is type 'auth' 
+[08/04/26, 21:47:22:851] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "type": "auth",
+  "history": "[REDACTED]"
+}
+[08/04/26, 21:47:22:852] info: Breadcrumb: electron: window.ready-to-show 
+{
+  "id": 2,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:22:854] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:22:854] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:22:854] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:22:854] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:22:855] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "history": "[REDACTED]"
+}
+[08/04/26, 21:47:22:857] info: MagicLogin: Flushed cookies to disk before closing auth window 
+{
+  "hasDCookie": true,
+  "dCookieDomains": [
+    ".slack.com"
+  ],
+  "hasLcCookie": true,
+  "lcCookieValues": [
+    "1785860242"
+  ]
+}
+[08/04/26, 21:47:22:857] info: Breadcrumb: electron: window.close 
+{
+  "id": 2,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:22:857] info: registerLifeCycleEvents: webContents:2 from 'loaded' to 'page-closed' took 6 ms 
+[08/04/26, 21:47:22:857] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "state": "page-closed"
+}
+[08/04/26, 21:47:22:858] info: Store: MAGIC_LOGIN_IN_PROGRESS 
+[08/04/26, 21:47:22:859] info: Breadcrumb: electron: renderer.destroyed 
+{
+  "id": 2,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:22:860] info: Store: REMOVE_WEB_CONTENTS 
+{
+  "id": 2
+}
+[08/04/26, 21:47:22:865] info: Breadcrumb: electron: window.closed 
+{
+  "id": 2,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:23:637] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:23:638] info: Breadcrumb: electron: app.browser-window-focus 
+[08/04/26, 21:47:23:639] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:23:997] info: Breadcrumb: electron: renderer.dom-ready 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:23:998] info: registerLifeCycleEvents: webContents:1 from 'loaded' to 'loaded' took 1143 ms 
+[08/04/26, 21:47:23:998] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "loaded"
+}
+[08/04/26, 21:47:24:000] info: Breadcrumb: electron: window.ready-to-show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:24:487] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "background-sync",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:24:669] info: Store: UPDATE_SETTINGS 
+{
+  "userTheme": "dark"
+}
+[08/04/26, 21:47:24:670] info: Store: UPDATE_SETTINGS 
+{
+  "systemThemeSyncEnabled": true
+}
+[08/04/26, 21:47:24:761] info: waitAuthCookieChange: waiting for auth change for session 
+{
+  "sessionId": "PROD_DEFAULT_SESSION"
+}
+[08/04/26, 21:47:24:762] info: Permission check denied: 
+{
+  "isMainFrame": false,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": false
+}
+[08/04/26, 21:47:24:762] info: Permission check denied: 
+{
+  "isMainFrame": false,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": false
+}
+[08/04/26, 21:47:24:762] info: Permission check denied: 
+{
+  "isMainFrame": false,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "slackChildWindowRequest": false
+}
+[08/04/26, 21:47:24:762] info: Permission check denied: 
+{
+  "isMainFrame": false,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "slackChildWindowRequest": false
+}
+[08/04/26, 21:47:24:809] info: Store: SET_NETWORK_STATUS online
+[08/04/26, 21:47:25:110] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:25:110] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:25:110] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:25:110] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:25:122] info: Store: SELECTION_CHANGED T034MTGTM
+[08/04/26, 21:47:25:162] info: Permission check denied: 
+{
+  "isMainFrame": false,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": false
+}
+[08/04/26, 21:47:25:162] info: Permission check denied: 
+{
+  "isMainFrame": false,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": false
+}
+[08/04/26, 21:47:25:162] info: Permission check denied: 
+{
+  "isMainFrame": false,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "slackChildWindowRequest": false
+}
+[08/04/26, 21:47:25:162] info: Permission check denied: 
+{
+  "isMainFrame": false,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "slackChildWindowRequest": false
+}
+[08/04/26, 21:47:26:822] info: Store: REDUX_UPDATE_FROM_WEBAPP (T034MTGTM) Changed keys [theme,notificationPrefs,connectivityPrefs,featureFlags,unreads,locale,version,frontendBuildType,userId,isRecording]
+[08/04/26, 21:47:27:068] info: Store: REDUX_UPDATE_FROM_WEBAPP (T034MTGTM) Changed keys [userId]
+[08/04/26, 21:47:27:073] info: Store: REDUX_UPDATE_FROM_WEBAPP (T034MTGTM) Changed keys [notificationPrefs,unreads]
+[08/04/26, 21:47:27:074] info: Store: REDUX_UPDATE_FROM_WEBAPP (T034MTGTM) Changed keys [connectivityPrefs]
+[08/04/26, 21:47:27:103] info: Store: REDUX_UPDATE_FROM_WEBAPP (T034MTGTM) Changed keys [unreads]
+[08/04/26, 21:47:27:105] info: Store: STORE_USER_WORKSPACES 
+{
+  "userTeamId": "T034MTGTM",
+  "workspaceIds": [
+    "T034MTGTM"
+  ]
+}
+[08/04/26, 21:47:27:110] info: Store: SELECTION_CHANGED T034MTGTM
+[08/04/26, 21:47:27:117] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:27:117] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:27:117] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:27:117] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:27:243] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": "https://app.slack.com/",
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:27:243] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "speaker-selection",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:27:243] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": "https://app.slack.com/",
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:27:243] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": "https://app.slack.com/",
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:27:245] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "speaker-selection",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:27:246] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": "https://app.slack.com/",
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:27:251] info: Store: EXTEND_MENU global: menucategory-file,menucategory-view,menucategory-jump-to
+[08/04/26, 21:47:27:254] info: Store: EXTEND_MENU T034MTGTM: menucategory-file,menucategory-view,menucategory-edit,menucategory-help,menucategory-history
+[08/04/26, 21:47:27:257] info: Store: UPDATE_SETTINGS 
+{
+  "zoomLevel": 0
+}
+[08/04/26, 21:47:27:274] info: Breadcrumb: electron: screen.display-metrics-changed 
+[08/04/26, 21:47:27:274] info: Store: DISPLAY_METRICS_CHANGED 
+[08/04/26, 21:47:27:368] info: Store: SYNC Synced 1 workspaces with IDs [T034MTGTM]
+[08/04/26, 21:47:27:372] info: registerLifeCycleEvents: webContents:1 from 'loaded' to 'webapp-loaded' took 3374 ms 
+[08/04/26, 21:47:27:372] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "webapp-loaded"
+}
+[08/04/26, 21:47:27:373] info: Initial Boot Timestamp: 1785860221164
+      Boot Phase: WEBAPP_LOADED
+      Duration: 21445ms
+      From Boot to WEBAPP_LOADED: 26209ms
+      Invoked on Startup: false
+      CPU Speed: 100 
+[08/04/26, 21:47:27:373] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 3,
+  "interval": 21445
+}
+[08/04/26, 21:47:27:486] info: DIAGNOSTIC: Info collection successful 
+{
+  "includedVirtualization": false
+}
+[08/04/26, 21:47:27:486] info: Store: SET_SYSTEM_DIAGNOSTIC_INFO 
+{
+  "virtualization": null,
+  "network": {
+    "connectionEffectiveType": "fast",
+    "downlinkSpeed": 10
+  },
+  "hardware": {
+    "total_memory_in_gb": 15,
+    "available_memory_gb": 12,
+    "chrome_version": "150.0.7871.114",
+    "locale": "en-US",
+    "uptime_hours": 0.86,
+    "cpu_model": "AMD Ryzen 7 7840HS w/ Radeon 780M Graphics",
+    "cpu_logical_core": 16,
+    "cpu_clock_speed": 2232,
+    "machine_model_name": "unknown",
+    "machine_model_version": "unknown"
+  }
+}
+[08/04/26, 21:47:27:592] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[08/04/26, 21:47:27:689] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[08/04/26, 21:47:27:775] info: setZoomLevelEpic: Re-applying zoom level 0 after display metrics change 
+[08/04/26, 21:47:27:794] info: Store: EXTEND_MENU T034MTGTM: menucategory-file,menucategory-view,menucategory-edit,menucategory-help,menucategory-history
+[08/04/26, 21:47:30:237] info: Store: UPDATE_SETTINGS 
+{
+  "autoHideMenuBar": true
+}
+[08/04/26, 21:47:30:242] info: Store: EXTEND_MENU T034MTGTM: menucategory-file,menucategory-view,menucategory-edit,menucategory-help,menucategory-history
+[08/04/26, 21:47:32:243] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": "https://app.slack.com/",
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:32:244] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "speaker-selection",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:32:244] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": "https://app.slack.com/",
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:32:357] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": "https://app.slack.com/",
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:32:358] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "speaker-selection",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:32:358] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": "https://app.slack.com/",
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:32:369] info: Store: persist/FLUSH 
+[08/04/26, 21:47:39:539] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "window-management",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:39:539] info: Breadcrumb: electron: app.web-contents-created 
+[08/04/26, 21:47:39:540] info: registerLifeCycleEvents: Registering webContents:3 
+[08/04/26, 21:47:39:540] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 3,
+  "state": "unloaded"
+}
+[08/04/26, 21:47:39:542] info: Breadcrumb: electron: app.browser-window-created 
+[08/04/26, 21:47:39:543] info: Breadcrumb: electron: window.show 
+[08/04/26, 21:47:39:543] info: Store: WINDOW_CREATED 
+{
+  "type": "webapp",
+  "id": 3,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isCurrentlyAudible": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": true,
+    "isFocused": false,
+    "bounds": {
+      "x": 359,
+      "y": 52,
+      "width": 1533,
+      "height": 934
+    },
+    "hasVibrancy": false,
+    "isAlwaysOnTop": false,
+    "isContentProtected": false
+  }
+}
+[08/04/26, 21:47:39:546] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:39:546] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:39:546] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:39:546] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:39:550] info: Breadcrumb: electron: renderer.dom-ready 
+{
+  "id": 3,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:39:551] info: registerLifeCycleEvents: webContents:3 from 'unloaded' to 'loaded' took 11 ms 
+[08/04/26, 21:47:39:551] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 3,
+  "state": "loaded"
+}
+[08/04/26, 21:47:39:552] info: Breadcrumb: electron: window.maximize 
+{
+  "id": 3,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:39:553] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 3,
+  "frame": {
+    "isMaximized": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:39:553] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 3,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 956,
+      "height": 1038
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:39:554] info: registerLifeCycleEvents: webContents:3 is type 'other' 
+[08/04/26, 21:47:39:554] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 3,
+  "type": "other",
+  "history": "[REDACTED]"
+}
+[08/04/26, 21:47:39:555] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 3,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:39:555] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:39:556] info: Breadcrumb: electron: app.browser-window-blur 
+[08/04/26, 21:47:39:556] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:39:557] info: Breadcrumb: electron: window.focus 
+{
+  "id": 3,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:39:558] info: Breadcrumb: electron: app.browser-window-focus 
+[08/04/26, 21:47:39:582] info: Breadcrumb: electron: renderer.dom-ready 
+{
+  "id": 3,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:39:583] info: registerLifeCycleEvents: webContents:3 from 'loaded' to 'loaded' took 29 ms 
+[08/04/26, 21:47:39:583] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 3,
+  "state": "loaded"
+}
+[08/04/26, 21:47:39:689] info: Breadcrumb: electron: window.ready-to-show 
+{
+  "id": 3,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:39:692] info: Store: EXTEND_MENU global: menucategory-file,menucategory-view,menucategory-jump-to
+[08/04/26, 21:47:40:544] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 3,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 956,
+      "height": 1038
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:40:554] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 3,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 956,
+      "height": 1038
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:40:555] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 956,
+      "height": 1038
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:40:556] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": true,
+    "bounds": {
+      "width": 1200,
+      "height": 800,
+      "x": 360,
+      "y": 140
+    }
+  }
+}
+[08/04/26, 21:47:41:193] info: Breadcrumb: electron: window.close 
+{
+  "id": 3,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:41:203] info: Store: EXTEND_MENU global: menucategory-file,menucategory-view,menucategory-jump-to
+[08/04/26, 21:47:41:225] info: registerLifeCycleEvents: webContents:3 from 'loaded' to 'page-closed' took 1642 ms 
+[08/04/26, 21:47:41:225] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 3,
+  "state": "page-closed"
+}
+[08/04/26, 21:47:41:226] info: Breadcrumb: electron: renderer.destroyed 
+{
+  "id": 3,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:41:227] info: Store: REMOVE_WEB_CONTENTS 
+{
+  "id": 3
+}
+[08/04/26, 21:47:41:232] info: Breadcrumb: electron: window.closed 
+{
+  "id": 3,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:41:233] info: Store: REMOVE_WINDOW 3
+[08/04/26, 21:47:41:235] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:47:41:236] info: Breadcrumb: electron: app.browser-window-focus 
+[08/04/26, 21:47:41:236] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:42:237] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1916,
+      "height": 1038
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:47:42:238] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": true,
+    "bounds": {
+      "width": 1200,
+      "height": 800,
+      "x": 360,
+      "y": 140
+    }
+  }
+}
+[08/04/26, 21:47:44:907] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:44:907] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:44:907] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:44:908] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/D0BMN4B2RNG",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:47:44:939] info: Store: EXTEND_MENU T034MTGTM: menucategory-file,menucategory-view,menucategory-edit,menucategory-help,menucategory-history
+[08/04/26, 21:48:04:927] info: Store: UPDATE_SETTINGS 
+{
+  "lastClogForProxyInfo": 1785860284927
+}
+[08/04/26, 21:48:05:278] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[08/04/26, 21:48:09:734] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:48:09:734] info: Breadcrumb: electron: app.browser-window-blur 
+[08/04/26, 21:48:09:735] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:48:13:395] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:48:13:396] info: Breadcrumb: electron: app.browser-window-focus 
+[08/04/26, 21:48:13:397] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:48:15:100] info: Breadcrumb: electron: window.close 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:48:15:102] info: Attempted to close the window, hiding due to run from tray 
+[08/04/26, 21:48:15:102] info: Breadcrumb: electron: window.hide 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:48:15:102] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:48:15:103] info: Store: UPDATE_SETTINGS 
+{
+  "hasRunFromTray": true
+}
+[08/04/26, 21:48:15:104] info: Store: SHOW_TRAY_BALLOON 
+{
+  "title": "Why didn’t Slack quit?",
+  "content": "Slack’s set to stay running in the notification area. To change this, visit Preferences > Advanced."
+}
+[08/04/26, 21:48:15:104] info: Tray Handler: Showing a tray balloon with title: Why didn’t Slack quit? 
+[08/04/26, 21:48:15:106] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:48:15:106] info: Breadcrumb: electron: app.browser-window-blur 
+[08/04/26, 21:48:15:107] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:48:15:556] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[08/04/26, 21:48:15:824] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[08/04/26, 21:48:16:130] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[08/04/26, 21:48:16:153] info: Store: FOREGROUND_APP 
+[08/04/26, 21:48:16:153] info: Store: FOCUS_WINDOW 
+[08/04/26, 21:48:16:154] info: Breadcrumb: electron: window.show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:48:16:155] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:48:16:155] info: Breadcrumb: electron: window.show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:48:16:157] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:48:16:157] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:48:16:158] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:48:16:159] info: Breadcrumb: electron: app.browser-window-focus 
+[08/04/26, 21:48:16:159] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:48:16:166] info: Breadcrumb: electron: window.maximize 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:48:16:167] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMaximized": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:48:16:167] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1916,
+      "height": 1038
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:48:17:168] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": true,
+    "bounds": {
+      "width": 1200,
+      "height": 800,
+      "x": 360,
+      "y": 140
+    }
+  }
+}
+[08/04/26, 21:48:17:169] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1916,
+      "height": 1038
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:48:17:870] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:48:17:870] info: Breadcrumb: electron: app.browser-window-blur 
+[08/04/26, 21:48:17:871] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:49:25:431] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:49:25:432] info: Breadcrumb: electron: app.browser-window-focus 
+[08/04/26, 21:49:25:432] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:49:27:453] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:27:453] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:27:453] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:27:453] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:27:629] info: Store: EXTEND_MENU T034MTGTM: menucategory-file,menucategory-view,menucategory-edit,menucategory-help,menucategory-history
+[08/04/26, 21:49:28:157] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/CH21NUGDD",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:28:157] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/CH21NUGDD",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:28:157] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/CH21NUGDD",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:28:157] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM/CH21NUGDD",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:28:220] info: Store: EXTEND_MENU T034MTGTM: menucategory-file,menucategory-view,menucategory-edit,menucategory-help,menucategory-history
+[08/04/26, 21:49:30:014] info: Store: REDUX_UPDATE_FROM_WEBAPP (T034MTGTM) Changed keys [unreads]
+[08/04/26, 21:49:34:764] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:34:764] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:34:764] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:34:764] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:39:753] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:39:754] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:39:754] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:39:754] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:43:481] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:43:481] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:43:481] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:49:43:481] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:08:992] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:08:993] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:08:993] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:08:993] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:15:878] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:15:878] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:15:879] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:15:879] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:18:341] info: Store: APP_COMMAND browser-backward
+[08/04/26, 21:51:18:446] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:18:446] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:18:447] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:18:447] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:18:509] info: Store: EXTEND_MENU T034MTGTM: menucategory-file,menucategory-view,menucategory-edit,menucategory-help,menucategory-history
+[08/04/26, 21:51:30:797] info: Breadcrumb: electron: renderer.context-menu 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:51:30:798] info: Store: OPEN_CONTEXT_MENU 
+{
+  "id": 1,
+  "params": {
+    "x": 1519,
+    "y": 940,
+    "mediaType": "none",
+    "hasImageContents": false,
+    "isEditable": false,
+    "spellcheckEnabled": false,
+    "formControlType": "none",
+    "menuSourceType": "mouse"
+  }
+}
+[08/04/26, 21:51:30:798] info: contextMenuEpic: opening popup menu 
+{
+  "id": 1
+}
+[08/04/26, 21:51:31:634] info: contextMenuEpic: popup menu closed 
+{
+  "id": 1
+}
+[08/04/26, 21:51:32:836] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:32:837] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:32:837] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:32:837] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:32:888] info: Store: EXTEND_MENU T034MTGTM: menucategory-file,menucategory-view,menucategory-edit,menucategory-help,menucategory-history
+[08/04/26, 21:51:44:123] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:44:123] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:44:123] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:44:123] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:56:552] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:56:552] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:56:552] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:56:552] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:57:365] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:51:57:366] info: Breadcrumb: electron: app.browser-window-blur 
+[08/04/26, 21:51:57:367] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:51:57:976] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:51:57:977] info: Breadcrumb: electron: app.browser-window-focus 
+[08/04/26, 21:51:57:978] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:51:59:385] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:59:385] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:59:385] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "web-app-installation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:59:385] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:51:59:469] info: Store: EXTEND_MENU T034MTGTM: menucategory-file,menucategory-view,menucategory-edit,menucategory-help,menucategory-history
+[08/04/26, 21:52:01:147] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:01:148] info: Breadcrumb: electron: app.browser-window-blur 
+[08/04/26, 21:52:01:149] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:08:325] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:08:326] info: Breadcrumb: electron: app.browser-window-focus 
+[08/04/26, 21:52:08:327] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:08:600] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:08:601] info: Breadcrumb: electron: app.browser-window-blur 
+[08/04/26, 21:52:08:602] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:12:364] info: Store: FOREGROUND_APP 
+[08/04/26, 21:52:12:364] info: Store: FOCUS_WINDOW 
+[08/04/26, 21:52:12:364] info: Breadcrumb: electron: window.show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:12:851] info: Store: FOREGROUND_APP 
+[08/04/26, 21:52:12:852] info: Store: FOCUS_WINDOW 
+[08/04/26, 21:52:12:852] info: Breadcrumb: electron: window.show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:13:284] info: Store: FOREGROUND_APP 
+[08/04/26, 21:52:13:284] info: Store: FOCUS_WINDOW 
+[08/04/26, 21:52:13:284] info: Breadcrumb: electron: window.show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:13:564] info: Store: FOREGROUND_APP 
+[08/04/26, 21:52:13:564] info: Store: FOCUS_WINDOW 
+[08/04/26, 21:52:13:565] info: Breadcrumb: electron: window.show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:13:566] info: Store: FOREGROUND_APP 
+[08/04/26, 21:52:13:566] info: Store: FOCUS_WINDOW 
+[08/04/26, 21:52:13:566] info: Breadcrumb: electron: window.show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:15:004] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:15:005] info: Breadcrumb: electron: app.browser-window-focus 
+[08/04/26, 21:52:15:006] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:15:726] info: Breadcrumb: electron: window.close 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:15:727] info: Attempted to close the window, hiding due to run from tray 
+[08/04/26, 21:52:15:727] info: Breadcrumb: electron: window.hide 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:15:728] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:15:729] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:15:730] info: Breadcrumb: electron: app.browser-window-blur 
+[08/04/26, 21:52:15:730] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:16:689] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:16:690] info: Breadcrumb: electron: app.browser-window-blur 
+[08/04/26, 21:52:17:406] info: Store: FOREGROUND_APP 
+[08/04/26, 21:52:17:406] info: Store: FOCUS_WINDOW 
+[08/04/26, 21:52:17:407] info: Breadcrumb: electron: window.show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:17:408] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:17:408] info: Breadcrumb: electron: window.show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:17:411] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:17:411] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 959,
+      "height": 1040
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:17:417] info: Breadcrumb: electron: window.maximize 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:17:418] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMaximized": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:17:418] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 956,
+      "height": 1038
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:17:419] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:17:420] info: Breadcrumb: electron: app.browser-window-focus 
+[08/04/26, 21:52:17:420] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:18:419] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": true,
+    "bounds": {
+      "width": 1200,
+      "height": 800,
+      "x": 360,
+      "y": 140
+    }
+  }
+}
+[08/04/26, 21:52:18:420] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 956,
+      "height": 1038
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:19:504] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:19:505] info: Breadcrumb: electron: app.browser-window-blur 
+[08/04/26, 21:52:19:505] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:19:830] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1916,
+      "height": 1038
+    }
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:19:831] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": true,
+    "bounds": {
+      "width": 1200,
+      "height": 800,
+      "x": 360,
+      "y": 140
+    }
+  }
+}
+[08/04/26, 21:52:27:721] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "notifications",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:52:27:721] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "notifications",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/client/T034MTGTM",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[08/04/26, 21:52:28:180] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:28:181] info: Breadcrumb: electron: app.browser-window-focus 
+[08/04/26, 21:52:28:182] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:28:662] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:28:663] info: Breadcrumb: electron: app.browser-window-blur 
+[08/04/26, 21:52:28:664] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:29:460] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:29:461] info: Breadcrumb: electron: app.browser-window-focus 
+[08/04/26, 21:52:29:461] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:52:30:890] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:52:30:891] info: Breadcrumb: electron: app.browser-window-blur 
+[08/04/26, 21:52:30:892] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:53:13:102] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:53:13:103] info: Breadcrumb: electron: app.browser-window-focus 
+[08/04/26, 21:53:13:104] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:53:13:873] info: Breadcrumb: electron: window.close 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:53:13:874] info: Attempted to close the window, hiding due to run from tray 
+[08/04/26, 21:53:13:874] info: Breadcrumb: electron: window.hide 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:53:13:875] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:53:13:876] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:53:13:877] info: Breadcrumb: electron: app.browser-window-blur 
+[08/04/26, 21:53:13:877] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/04/26, 21:53:14:809] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[08/04/26, 21:53:14:809] info: Breadcrumb: electron: app.browser-window-blur 

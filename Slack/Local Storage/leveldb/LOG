@@ -1,0 +1,8 @@
+2026/08/04-21:47:04.884 dd4c Creating DB /home/aniket/.config/Slack/Local Storage/leveldb since it was missing.
+2026/08/04-21:47:04.887 dd4c Reusing MANIFEST /home/aniket/.config/Slack/Local Storage/leveldb/MANIFEST-000001
+2026/08/04-21:49:05.377 dd67 Level-0 table #5: started
+2026/08/04-21:49:05.392 dd67 Level-0 table #5: 95946 bytes OK
+2026/08/04-21:49:05.393 dd67 Delete type=0 #3
+2026/08/04-21:53:05.380 dd67 Level-0 table #7: started
+2026/08/04-21:53:05.393 dd67 Level-0 table #7: 11466 bytes OK
+2026/08/04-21:53:05.397 dd67 Delete type=0 #4

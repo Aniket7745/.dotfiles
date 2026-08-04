@@ -1,17 +1,17 @@
 return {
-	background = "#111318",
-	foreground = "#e2e2e9",
+	background = "#131318",
+	foreground = "#e5e1e9",
 
-	surface = "#111318",
-	surface_container = "#1e1f25",
+	surface = "#131318",
+	surface_container = "#201f25",
 
-	primary = "#adc6ff",
-	secondary = "#bfc6dc",
-	tertiary = "#debcdf",
+	primary = "#c4c0ff",
+	secondary = "#c7c4dc",
+	tertiary = "#eab9d1",
 
 	error = "#ffb4ab",
 
-	outline = "#8e9099",
+	outline = "#928f99",
 
-	on_surface = "#e2e2e9",
+	on_surface = "#e5e1e9",
 }
